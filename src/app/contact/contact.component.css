@@ -1,0 +1,41 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.navs {
+  margin-top: 20px;
+  display: flex;
+  gap: 10px;
+}
+
+.social-icons {
+  margin-top: 20px;
+  display: flex;
+  gap: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(60, 60, 117); /* Change the color to blue */
+}
+
+/* Add the following rule to center-align the social icons */
+.social-icons {
+  display: flex;
+  gap: 10px;
+  align-items: center; /* Align at the center vertically */
+}
+*{
+  background-color:  #f4f4f4;
+}
+all{
+  height: 1200px;
+  padding-top: 200px;
+  padding-bottom: 200px;
+}

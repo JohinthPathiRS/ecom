@@ -1,0 +1,59 @@
+button{
+    
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    background-color: #3498db;
+    color: #ffffff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-right: 10px;
+} 
+.price{
+color: rgb(121, 101, 180);
+} 
+.quantity{
+color: #3498db;
+}
+/* shop.component.css */
+/* shop.component.css */
+
+.grid-container {
+    display: grid;
+    grid-template-rows: auto;
+    padding: 20px;
+    
+}
+
+.grid-item {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+
+}
+.item-image {
+    height: 150px;
+    width: auto;
+    margin-bottom: 15px;
+}
+
+.price, .quantity {
+    margin-bottom: 10px;
+}
+
+.quantity-controls {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}

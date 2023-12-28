@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  
+  
+  footer {
+    width: 100%;
+    background-color: #3d4041;
+    color: #fff;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+        
+  
+     /* Initially hide the footer */
+  }
+  
+  footer nav {
+    margin-top: 10px;
+  }
+  
+  footer nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0;
+  }
+  a{
+    text-decoration: none;
+    padding-right: 10px;
+  }
+  

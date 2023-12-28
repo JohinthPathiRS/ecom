@@ -1,0 +1,127 @@
+.social-icons {
+    margin-top: 10px;
+  }
+  
+  .social-icons a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+  }
+  
+  body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .navbar {
+    background-color: #e6eaec;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    
+    align-items: center;
+    color: rgb(22, 21, 21);
+  }
+  
+  .logo {
+    
+    width: 20px;
+  }
+  
+  .nav-links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  .nav-links li {
+    margin-right: 20px;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: rgb(14, 12, 12);
+  }
+  
+  .search-bar {
+    display: flex;
+    width: 30%;
+    align-items: center;
+  }
+  
+  .search-bar input {
+    padding: 8px;
+    margin-right: 10px;
+  }
+  
+ 
+  
+  .cart-icon img {
+    width: 30px;
+    height: 30px;
+  }
+  
+  .cart-count {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: red;
+    color: white;
+    padding: 5px;
+    border-radius: 50%;
+    font-size: 12px;
+  }
+  
+  .logo img {
+    height: 80px;
+    width: 150px;
+    padding: none;
+    border: none;
+    margin: none;
+  }
+  
+  .search-box {
+    width: 30000%; 
+    margin-right: 10px; 
+  }
+  
+  .search-container {
+    text-align: center;
+  }
+  
+  .search-button {
+    height: 30px; 
+    background-color: #eef3f6;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 10px;
+    
+  }
+  
+  .search-button:hover {
+    background-color: #F1F6F9;
+    
+  }
+  .viewer{
+    height: 10px;
+    width: 100%;
+  }
+  a{
+    
+    text-decoration: none;
+    color: black;
+  }
+  .login img{
+    height: 40px;
+    background-color: #f1f6f9;
+    border-radius: 40%;
+    width: 40px;
+    
+    position: absolute;
+    right: 8%;
+    top: 32%;
+
+ 
+}

@@ -1,0 +1,63 @@
+.mobile {
+    padding: 30px;
+    background-color: rgb(246, 238, 238);
+    overflow-x: auto; /* To allow horizontal scrolling if needed */
+}
+
+.overall {
+    display: flex;
+    gap: 43px;
+    flex-wrap: wrap; 
+    overflow-x: auto; 
+}
+
+.moto {
+    background-color: rgb(255, 255, 255);
+    height: 300px; 
+    width: 200px; 
+    flex-shrink: 40px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+}
+
+.moto:hover {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+img {
+    width: auto; 
+    height: 80%; 
+    max-width: 100%; 
+    object-fit: contain;
+}
+
+a {
+    color: rgb(21, 21, 21);
+    text-decoration: none;
+}
+
+.moto h4 {
+    font-weight: lighter;
+    font-size: 1.3rem;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.moto h5 {
+    font-family: Sans-serif;
+    font-size: 1em;
+    margin-bottom: 10px;
+}
+.behalf{
+    height: 10px;
+    width: 100%;
+}
+br{
+    color: white;
+    background-color: white;
+}

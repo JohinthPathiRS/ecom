@@ -1,0 +1,17 @@
+<div class="grid-container" *ngFor="let item of items">
+    <div class="grid-item">
+        <a [routerLink]="item.route"><img [src]="item.image" alt="" class="item-image"></a>
+
+        <h3>{{ item.name }}</h3>
+        <p class="price">Price: ${{ item.price }}</p>
+        <p class="quantity">Quantity: {{ item.quantity }}</p>
+        
+        <!-- Quantity controls -->
+        <div class="quantity-controls">
+            <button (click)="increaseQuantity(item)" >+</button>
+            <button (click)="decreaseQuantity(item)">-</button>
+        </div>
+        <br>
+        <button routerLink="/pay">Pay</button>
+    </div>
+</div>

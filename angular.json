@@ -32,10 +32,48 @@
             "tsConfig": "tsconfig.app.json",
             "assets": [
               "src/favicon.ico",
-              "src/assets"
+              "src/assets",
+              "src/assets/Shelby shopping.png",
+              "src/assets/logo.png",
+              "src/assets/amazon-logo.png",
+              "src/assets/search.png",
+              "src/assets/zebronics.webp",
+              "src/assets/flipkart2.webp",
+              "src/assets/flipkart3.webp",
+              "src/assets/mobiles/infinix.png",
+              "src/assets/mobiles/infinix.png",
+              "src/assets/mobiles/nothing.png",
+              "src/assets/mobiles/Realme.png",
+              "src/assets/mobiles/vivo.png",
+              "src/assets/mobiles/samsung.jpeg",
+              "src/assets/New folder/macbook.jpeg",
+              "src/assets/New folder/acer.jpeg",
+              "src/assets/New folder/asus.jpeg",
+              "src/assets/New folder/HP.jpeg",
+              "src/assets/New folder/lenovo.jpeg",
+              "src/assets/New folder/samsunglap.jpeg",
+              "src/assets/watch/applewatch.jpeg",
+              "src/assets/watch/samsungwatch.jpeg",
+              "src/assets/watch/boatwatch.jpeg",
+              "src/assets/watch/fireboltwatch.jpeg",
+              "src/assets/watch/noisewatch.jpeg",
+              "src/assets/watch/realmewatch.jpeg",
+              "src/assets/shoes/adidas.jpeg",
+              "src/assets/shoes/converse.jpeg",
+              "src/assets/shoes/newbalance.jpeg",
+              "src/assets/shoes/nike.jpeg",
+              "src/assets/shoes/puma.jpeg",
+              "src/assets/shoes/reebook.jpeg",
+              "src/assets/login.jpg",
+              "src/assets/zebronics.webp",
+              "src/assets/ad/envy.webp",
+              "src/assets/ad/sam.jpg",
+              "src/assets/zeb.jpg"
+              
             ],
             "styles": [
               "src/styles.css"
+              
             ],
             "scripts": [],
             "server": "src/main.server.ts",
@@ -106,5 +144,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "b3fd6ded-7ef8-492e-bea7-45f4f8c76eb3"
   }
 }

@@ -1,0 +1,83 @@
+.first-container{
+    width: 100%;
+    height: 30%;
+    padding: 120px;
+     
+}
+.second-container{
+    height: 650px;
+    width: 500px;
+    background-color: rgb(101, 147, 187);
+}
+
+.behalf{
+    height: 20px;
+}
+
+.details {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 500px; /* Adjust width as needed */
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.first-container table {
+    padding-right: 50%;
+    width: 100%;
+    /* This will move the table slightly to the left, aligning it with the left edge of the grid gap */
+}
+
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+th {
+    font-weight: bold;
+}
+
+a{
+    text-decoration: none;
+}
+
+.original-price {
+    text-decoration: line-through;
+    color: red;
+  }
+  
+  .discounted-price {
+    color: green;
+  }
+
+  .price-difference {
+    color: blue;
+    font-weight: bold;
+  }
+.content{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-grow: 2;
+    flex-shrink: 2;
+    flex-direction: row;
+    flex-wrap: wrap;
+     /* Auto size rows, meaning they will size based on content */
+    gap: 16px;    
+    
+}
+.tables , .tables tr, .tables td {
+    border-collapse: collapse;
+    border: 0;
+    border: none;
+  }
+  *{
+    background-color:  rgb(246, 238, 238);
+  }
+  
+ 
